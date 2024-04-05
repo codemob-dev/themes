@@ -1,0 +1,97 @@
+/**
+ * @name Transluscent Blurple
+ * @author Codemob
+ * @authorId 690944955857764393
+ * @authorLink https://github.com/codemob-dev
+ * @version 1.0.0
+ * @description A blurple theme with lots of transparency and gradients
+*/
+.theme-dark {
+    --background-primary: #28183644;
+    --background-secondary: #0e0e1444;
+    --background-tertiary: linear-gradient(155deg, #0b061d 0px, #000000 100%);
+    --bg-overlay-3: linear-gradient(174deg, #342569 0px, #000000 100%);
+    --background-secondary-alt: linear-gradient(177deg, #181035 0px, #000000 100%);
+    --background-accent: #0e0e14ab;
+    --profile-gradient-primary-color: #181035a1;
+    --profile-gradient-secondary-color: #0000004d;
+    --profile-body-background-color: #160920ab;
+    --channels-default: #aeaad4;
+    --channel-icon: #35569e;
+    --modal-background: #342e4b7e;
+    --modal-footer-background: #28183644;
+    --button-secondary-background: #342569;
+}
+
+body, .appMount_c99875 {
+    background: radial-gradient(circle at -307px -25px, #322569 0px, #000000 100%)!important;
+}
+
+.app_de4237, .bg__12180 {
+    background: transparent;
+}
+
+.scrollableContainer_ff917f {
+    box-shadow: 4px 5px 5px 3px #14071c;
+    outline: #38208f 1px solid;
+    border-radius: 20px;
+    transition: box-shadow, transform .2s;
+}
+
+.searchBar__5a20a {
+    box-shadow: 4px 5px 5px 3px #14071c;
+    outline: #38208f 1px solid;
+    border-radius: 20px;
+    transition: box-shadow, transform .2s, width.25s ease!important;
+}
+
+.platform-win .sidebar_e031be {
+    border-radius: 32px 0 0;
+}
+
+.container_debb33 {
+    background: linear-gradient(155deg, #150c35 0px, #000000 100%)!important;
+    box-shadow: #1c0d3e 0px -20px 80px 20px;
+}
+
+.searchBar__5a20a:hover {
+    box-shadow: 2px 4px 5px 5px #14071c;
+    transform: translate(2px, 2px);
+    outline: #38208f 1px solid;
+}
+
+.scrollableContainer_ff917f:hover {
+    box-shadow: 2px 4px 5px 5px #14071c;
+    transform: translate(2px, 2px);
+    outline: #38208f 1px solid;
+}
+
+.channelTextArea__648e5 {
+    margin-bottom: 24px!important;
+    border-radius: 20px;
+}
+
+.contentWrapper_e0bb2c {
+    background-color: #27173fe0!important;
+}
+
+.wrapper__4e6b6 {
+    background-color: #27173fe0!important;
+}
+
+.banner__6d414 {
+    opacity: 60%;
+}
+
+.role_d81130 {
+    background: linear-gradient(254deg, #0c0818 0px, #16112b 100%);
+    box-shadow: 3px 4px 3px 3px #14071c;
+    outline: #180a4b 1px solid;
+    transition: box-shadow, transform .5s;
+}
+.role_d81130:hover {
+    background: linear-gradient(254deg, #0c0818 0px, #16112b 100%);
+    box-shadow: inset 0px 4px 3px 3px #14071c;
+    transform: translate(3px, 3px);
+    outline: #180a4b 1px solid;
+}
